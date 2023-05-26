@@ -1,0 +1,35 @@
+*,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.empDiv:nth-child(odd) {
+    background: #e0e0e0;
+}
+
+.empDiv:nth-child(even) {
+    background: #bc3030;
+}
+
+.empDiv {
+    border: 1px solid;
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+.Details {
+    display: flex;
+
+}
+
+.empDiv>.btn {
+    margin-top: 20px;
+}
+
+.details>img {
+    min-width: 200px;
+    min-height: 200px;
+    height: 200px;
+}

@@ -1,0 +1,164 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "age": 32,
+            "position": "Manager",
+            "department": "Sales",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "age": 28,
+            "position": "Engineer",
+            "department": "Engineering",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Michael Johnson",
+            "age": 45,
+            "position": "Senior Analyst",
+            "department": "Finance",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "age": 36,
+            "position": "Marketing Specialist",
+            "department": "Marketing",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Andrew Wilson",
+            "age": 29,
+            "position": "Developer",
+            "department": "IT",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Sarah Thompson",
+            "age": 41,
+            "position": "Human Resources Manager",
+            "department": "HR",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Christopher Lee",
+            "age": 33,
+            "position": "Designer",
+            "department": "Creative",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Olivia Hernandez",
+            "age": 27,
+            "position": "Assistant",
+            "department": "Administration",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Daniel Clark",
+            "age": 38,
+            "position": "Project Manager",
+            "department": "Operations",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Sophia Martinez",
+            "age": 31,
+            "position": "Analyst",
+            "department": "Finance",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Jacob Anderson",
+            "age": 26,
+            "position": "Engineer",
+            "department": "Engineering",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Mia Moore",
+            "age": 29,
+            "position": "Sales Representative",
+            "department": "Sales",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Ethan Turner",
+            "age": 34,
+            "position": "Product Manager",
+            "department": "Product",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Ava Harris",
+            "age": 33,
+            "position": "Marketing Coordinator",
+            "department": "Marketing",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Matthew Young",
+            "age": 37,
+            "position": "Business Analyst",
+            "department": "IT",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Isabella Wilson",
+            "age": 30,
+            "position": "Recruiter",
+            "department": "HR",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Joseph Garcia",
+            "age": 39,
+            "position": "Art Director",
+            "department": "Creative",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Samantha White",
+            "age": 28,
+            "position": "Office Manager",
+            "department": "Administration",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 19,
+            "name": "William Lewis",
+            "age": 35,
+            "position": "Operations Manager",
+            "department": "Operations",
+            "image": "./image/download.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Victoria Taylor",
+            "age": 32,
+            "position": "Financial Analyst",
+            "department": "Finance",
+            "image": "./image/download.jpg"
+        }
+    ]
+}
