@@ -1,0 +1,89 @@
+{
+    "resort": [
+        {
+            "id": 1,
+            "name": "Wild Kasarwadi Homestay",
+            "image": "./image/1.Wild kasarwadi homestay/bg.jpg"
+        },
+        {
+            "id": 2,
+            "name": "White Elephant Cottage",
+            "image": "./image/2.White Elephant cottage/bg.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Whistling Woods Resort",
+            "image": "./image/3.Whistling woods resort/bg.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Hornbill Resort",
+            "image": "./image/4.Hornbill resort/bg.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Bison River Side Resort",
+            "image": "./image/5.Bison River side resort/bg.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Fortune Woods",
+            "image": "./image/6.Starlin resort/bg.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Parampara Cottage",
+            "image": "./image/7.Parampara cottage/bg.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Dew Drops",
+            "image": "./image/8.Dew drops/bg.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Tusker",
+            "image": "./image/9.Tusker/bg.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Pepper Paradise",
+            "image": "./image/10.Pepper paradise/bg.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Jungl bell",
+            "image": "./image/11.Jungle bell/bg.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Laguna resort",
+            "image": "./image/12.Laguna resort/bg.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Panther",
+            "image": "./image/13.Panther/bg.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Sunbird Homestay",
+            "image": "./image/14.Sunbird Homestay/bg.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Fortune Woods",
+            "image": "./image/15.Fortune Woods/bg.jfif"
+        },
+        {
+            "id": 16,
+            "name": "Woodpecker",
+            "image": "./image/16.Woodpecker/bg.jfif"
+        },
+        {
+            "id": 17,
+            "name": "Nirvana resort",
+            "image": "./image/17.Nirvana resort/bg.jfif"
+        }
+    ]
+}

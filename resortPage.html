@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Slider with jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #slider-container {
+            width: 100%;
+            height: 500px;
+            max-height: 500px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #slider {
+            width: 100%;
+            height: 100%;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+        }
+
+        #slider li {
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        #slider li.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="slider-container">
+        <ul id="slider">
+            <!-- Slides will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Fetch dynamic content from an API or any other source
+            $.ajax({
+                url: './json/slider.json',
+                method: 'GET',
+                success: function (data) {
+                    // Iterate over the fetched data and create slide elements
+                    $.each(data, function (index, item) {
+                        var slide = $('<li></li>');
+                        var image = $('<img>').attr('src', item.image);
+                        image.attr('class','img-fluid mx-auto d-block');
+                        var title = $('<h2></h2>').text(item.title);
+                        var description = $('<p></p>').text(item.description);
+
+                        slide.append(image, title, description);
+                        $('#slider').append(slide);
+                    });
+
+
+                    // Show the first slide initially
+                    $('#slider li:first').addClass('active');
+
+                    // Set up slider interval
+                    setInterval(function () {
+                        var activeSlide = $('#slider li.active');
+                        var nextSlide = activeSlide.next('li').length ? activeSlide.next('li') : $('#slider li:first');
+                        activeSlide.removeClass('active');
+                        nextSlide.addClass('active');
+                    }, 3000);
+                },
+                error: function () {
+                    console.log('Error fetching content.');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

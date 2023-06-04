@@ -1,0 +1,20 @@
+*,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.resortList {
+    padding-bottom: 20px;
+}
+
+.resortDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row:nth-child(odd) {
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* navbar*/
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    margin-right: 50px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#toggler,
+.navbar label {
+    display: none;
+}
+
+.list a {
+    padding: 0px 10px;
+    transition-delay: .2s;
+}
+
+.list a:hover {
+    border-bottom: 5px solid red;
+}
+
+.ri-menu-line {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+/* navbar-end */
+
+.home-stay h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+.homestay-contain h2 {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homestay-contain p {
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#lightbox {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease 0.8s;
+}
+
+.image img:hover {
+    cursor: zoom-in;
+}
+
+#lightbox.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+#lightbox img {
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+
+#lightbox img:hover {
+    cursor: zoom-out;
+}
+
+.image img {
+    padding: 10px 0 10px 10px;
+}
+
+.resort-text h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.text-contain p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* social media icon  */
+.icon-start {
+    background-color: #ddd;
+    height: fit-content;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.icon {
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon i {
+    color: black;
+    font-size: 1.5em;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon i:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.icon .fa{
+    padding: 10px;
+    border-radius: 25%;
+    background-color: black;
+    color: white
+}
+.social-media {
+    margin-top: 50px;
+}
+
+/* social media icon-end */
+
+/* package-include */
+.check{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.package{
+    background-color: rgba(196, 189, 164, 0.089);
+    padding: 10px;
+}
+.package h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.package-container h2{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+.activities-inc h3{
+    font-size: 25px;
+}
+.activities-inc ul li,span{
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.Package-inc span{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.activities-inc ul li:before{
+    content: '✓';
+    font-weight: bold;
+    color: green;
+}
+/* package-include-end */
+
+/* activity */
+.activity h1{
+    font-family: 'Lobster', cursive;
+}
+/* activity-end */
+
+
+
+
+/* image respo in mobile  */
+@media (max-width: 767px) {
+    .image img {
+        width: 100%;
+        height: 180px;
+        padding: 10px;
+    }
+
+    #lightbox img {
+        width: 100%;
+        height: 600px;
+        padding: 30px;
+    }
+
+    .text-contain p {
+        padding: 10px;
+    }
+    .package-container{
+        padding: 10px;
+    }
+
+    .package-container h2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px){
+
+    /* navbar */
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~.menu{
+        max-height: 100%;
+    }   
+}
